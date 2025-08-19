@@ -12,7 +12,7 @@
     Եվ այսպես. 
 
 ####  HOME
-ՀԱՏՎԱԾԻ ԱՄԲՈՂՋԱԿԱՆ ՇԱԲԼՈՆԸ [ԱՅՍՏԵՂ](https://github.com/stpatriarch/decmans/blob/main/declarations/docs/samples/home_sample.md)
+ՀԱՏՎԱԾԻ ԱՄԲՈՂՋԱԿԱՆ ՇԱԲԼՈՆԸ [ԱՅՍՏԵՂ](samples/home_sample.md)
 
 > Այն պարունակում է ընդանուր տեղեկություն պրոեկտի մասին, դրա տեղադրման գործընթացի և հետագա շահագործման կանոնների մասին։ Այն ունի տեղեկատվական նշանակություն։
 
@@ -54,7 +54,7 @@ _Հավելվածը արդիական է միայն **macos**, **linux**, **openb
 
 
 #### 00 INCLUDE և 01 MODULES
-ՀԱՏՎԱԾԻՆԵՐԻ ՄԻԱՍՆԱԿԱՆ ԵՎ ԱՄԲՈՂՋԱԿԱՆ ՇԱԲԼՈՆԸ [ԱՅՍՏԵՂ](https://github.com/stpatriarch/decmans/blob/main/declarations/docs/samples/include_modules_sample.md)
+ՀԱՏՎԱԾԻՆԵՐԻ ՄԻԱՍՆԱԿԱՆ ԵՎ ԱՄԲՈՂՋԱԿԱՆ ՇԱԲԼՈՆԸ [ԱՅՍՏԵՂ](samples/include_modules_sample.md)
 
  > Քանի որ այս երկուսն էլ ունեն նույն վիկի-դոկումենտացիոն կառուցվածքը, ապա հաջորդիվ բերված նկարագրությունը ճշմարիտ է երկուսի համար էլ։
  
