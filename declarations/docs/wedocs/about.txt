@@ -1,0 +1,61 @@
+WeDocs 
+--------------
+
+
+Հայերեն
+-------
+
+    Հազիվ թե կարելի է գտնել ունիկալություն այս ձեռնարկում, կամ փորձել գտնել որևէ հեղափոխական լուծումներ։
+Այս դեկլարացիան օգնում է առաջինը ինձ, ավելի շատ կոորդինացնելու իմ համեստ պրոեկտների դոկումենացիայի
+ֆորմատավորումը, բերելու այն մեկ-ամբողջական տեսքի։ Միանշանակ կարելի է համացանցում գտնել ավելի 
+ամբողջական դոկումենցաիայի օրինակներ կամ ավելի կառցուցվածքային գեղեցիկ, ավտոմատացված տերբերակներ,
+որոնք ինչ խոսք չի էլ կարելի համեմատել այս համեստ ձեռնարկի հետ, որը կազմում է երկու էջ ընդհամենը և 
+օգնական երկու օրինակ։
+
+    Գտնում եմ սակայն որ հենց սրանում էլ կայանում է այս ձեռնարկի առավելությունը, այն ծանրաբեռնող չէ, չի 
+պահանջում հավելյալ թուլինգների տեղադրում, հետևաբար դրա յուրացումը հասանելի է ավելի լայն մարդկային
+խմբերի։ Բացի դա այն հիմնված է պարզագույն  markdown սինտաքսիսի վրա, որը կարելի է սովորել մի քանի 
+րոպպեների ընթացքում։ Այն նաև ամբողջությամբ համապատասխանում է GitHub Wiki (github flavored markdown)
+ֆորմատավորմանը։
+
+Մեծ հաջողություն կհամարեմ որ այն օգտակար լինի գեթ գոնե մեկ մարդու բացի ինձանից։ 
+
+Ուղեցույցի հղումը https://github.com/stpatriarch/decmans/blob/main/declarations/docs/wedocs/wedocs_guide.md
+
+
+Русский
+-------
+
+    Едва ли можно найти уникальность в этом руководстве или попытаться найти какие-то революционные решения.
+Эта декларация помогает в первую очередь мне — больше координировать форматирование документации моих 
+скромных проектов, приводить её в единый целостный вид. Безусловно, в интернете можно найти более полные
+примеры документации или более структурированные, красивые, автоматизированные шаблоны, которые, 
+разумеется, не сравнимы с этим скромным руководством, состоящим всего из двух страниц и содержащим два 
+примера.
+
+    Однако я нахожу, что именно в этом заключается преимущество данного руководства: оно не перегружает, 
+не требует установки дополнительных тулзов, поэтому его освоение доступно более широким кругам людей. 
+Кроме того, оно основано на самом простом синтаксисе Markdown, который можно выучить за несколько минут.
+Оно также полностью соответствует форматированию GitHub Wiki (github flavored markdown).
+
+Я буду считать большой удачей, если оно окажется полезным хотя бы одному человеку, кроме меня.
+
+Ссылка гайда https://github.com/stpatriarch/decmans/blob/main/declarations/docs/wedocs/wedocs_guide.md
+
+English
+-------
+
+    It is hardly possible to find uniqueness in this guide, or to try to find any revolutionary solutions.
+This declaration primarily helps me—to better coordinate the formatting of documentation for my modest 
+projects and bring it into a single, cohesive form. Of course, one can find more complete documentation
+examples online, or more structured, beautiful, automated templates, which, of course, cannot be compared
+to this modest guide consisting of only two pages and containing two examples.
+
+    However, I find that this is precisely the advantage of this guide: it is not overwhelming, does not
+require installing additional tools, and therefore can be mastered by a wider range of people. In 
+addition, it is based on the simplest Markdown syntax, which can be learned in a few minutes. It also
+fully complies with GitHub Wiki (github flavored markdown) formatting.
+
+I would consider it a great success if it proves useful to at least one person besides myself.
+
+Guide link https://github.com/stpatriarch/decmans/blob/main/declarations/docs/wedocs/wedocs_guide.md
