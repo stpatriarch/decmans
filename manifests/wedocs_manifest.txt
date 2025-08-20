@@ -61,4 +61,5 @@ I would consider it a great success if it proves useful to at least one person b
 Guide link https://github.com/stpatriarch/decmans/blob/main/declarations/docs/wedocs/wedocs_guide.md
 
 -------
-writed by stpatriarch
+author: stpatriarch
+writed at 20.08.25
