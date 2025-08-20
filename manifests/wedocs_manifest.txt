@@ -59,3 +59,6 @@ fully complies with GitHub Wiki (github flavored markdown) formatting.
 I would consider it a great success if it proves useful to at least one person besides myself.
 
 Guide link https://github.com/stpatriarch/decmans/blob/main/declarations/docs/wedocs/wedocs_guide.md
+
+-------
+writed by stpatriarch
