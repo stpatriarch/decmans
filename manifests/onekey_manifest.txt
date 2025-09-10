@@ -1,0 +1,102 @@
+OneKey
+--------------
+
+
+Հայերեն
+-------
+
+    Հաշվի առնելով, որ մարդիկ օգտագործում են տասնյակ հաշիվներ, որոնցից յուրաքանչյուրը պետք է ունենա 
+իր յուրօրինակ գաղտնաբառը, ցանկալի է որ այն լինի ապահով, այսինքն պարունակի բավական քանակի 
+սիմվոլներ, մեծատառ և փոքրատառ, պարունակի թվային սիմվոլ և հատուկ նշան։ Խնդիրը կայանում է նրանում, 
+որ մարդիկ ուղղակի անզոր են հիշելու այդ ամենը, հաճախ են օգտագործում կրկվող և թույլ(կարճ, քիչ սիվոների բաղկացած) 
+գաղտաբառեր իսկ բազմազան գաղտաբառերի մենեջերները բազմիցս ապացուցել են իրենց անկարողությունը հաքերական 
+հարձակումների նկատմամբ և հարյուր հազարվոր մարդկանց հաշիվներ իրենց գաղտաբառերով հայտնվել են վտանգի տակ։ 
+
+    Ինչ խեսք այս մեթոդը ևս ունի իր թերությունները, սակայն այն զերծ է մի քանի վերընշվածներից։ Այն օֆլայն է այսինքն 
+բացառում է որևէ ձևով այլ անցանկալի մարկանց միջամտությունը, այն առաջարկում է ունենալ մեկ բանալի որը կլինի 
+ֆիզիկական կրիչի վրա կամ որը ուղղակի կարելի կլինի պահել ցանկացած QR-CODE-ի  կամ NFC-TAG-ի մեջ, այն իրենից
+ներկայացնում է ՀԵՇ—ԳՈՒՄԱՐ օրինակ՝ ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb
+որը ցանկացած ժամանակ կարելի է կարդալ ձեր սմարթֆոնի օգնությամբ։ Եթե որևէ ձևով այն հայտվի էլ այլ մարդու ձեռքերում,
+կամ այն գտնի մեկ ուրիշը այն ուղղակի ոչ մի ինֆորմացիա չի ներկացանում, թե ինչ է և որտեղ է կիրառելի։  
+
+    Գործիքը իր մեջ չի պահում որևէ ինֆորմացիա ոչ գաղտաբառի ոչ էլ բանալու մասին։ առաջին քայլով այն 
+պահանջում է մուտքագրել բանալին, իսկ երկրորդում՝ հաշվի հոսթը (Instagram, Facebook...) իսկ եթե դուք 
+ունեք մի քանի հաշիվ կարելի է օգտագրոծել մուտքանուննեը։ Այնուհետև այն օգտագործելով SHA-256 հեշավորման
+ալգորիթմը կատարլով եռակի հեշավորում կգներեացնի ապահով, չկրկնվող գաղտաբառ որը պետք չէ հիշել։ Պետք չէ՞ հիշել։
+
+    Այո, քանի որ SHA-256 ապահովվում է որ մուտքագրված նույն բանալու և հոսթի պարագայում այն միշտ կտա նույն 
+արդյունքը։ Ձեզանից միայն կպահանջվի ունենալ բանալին և մուտքագրել այն հաշվի անունը որի գանղտաբառը պետք է հիմա։ 
+
+    Ձեր գաղտնաբառերից յուրաքանչյուրը կլինի օրինակ, այսպիսին՝ 7V1QRtxY2WRtBG01ESgz4UMG49oUca6lnvhQFEFzPGA= 
+կամ այսպիսին KxgvhkGvQPng1MTISNkf2dN8S0iyP/Tle7EjDBNvGkk= տեսք։ Սրանք համարվում են գերապահով(288.4 էնտրոպիային բիտ) 
+այն կռահելը ուղղակի համարվում է անհնարին մաթեմատիկական տեսանկյունից, այսիքն հնարավոր, սակայն հարյուրավոր
+գերհամակարգիրչներին կպահանջվի մի քանի միլիարդ տարի այն կռահելու համար։ Այսպիսով սա կարելիէ դիտարեկել որպես 
+այլընտրանքային, օֆլայն միջոց։
+
+Այստեղ նկարագրված մեթոդը կարելի է կիրառել մեկ գործիքի մեջ։ 
+Դրա պարզագյուն ռեալիզացիան: https://github.com/stpatriarch/onekey.git
+
+
+Русский
+-------
+
+    Учитывая, что люди используют десятки аккаунтов, каждый из которых должен иметь свой уникальный пароль, желательно, чтобы 
+он был надёжным, то есть содержал достаточное количество символов, заглавные и строчные буквы, цифры и специальные знаки. 
+Проблема в том, что людям просто невозможно всё это запомнить: они часто используют повторяющиеся и 
+слабые (короткие, из малого количества символов состоящие) пароли, а многочисленные менеджеры паролей не раз доказали свою
+ уязвимость перед хакерскими атаками, и сотни тысяч аккаунтов вместе с паролями оказались под угрозой.
+
+    Разумеется, и этот метод имеет свои недостатки, однако он лишён ряда упомянутых выше. Он офлайн, то есть исключает любое 
+нежелательное вмешательство посторонних лиц. Он предлагает иметь один ключ, который будет храниться на физическом носителе 
+или, например, в QR-коде либо NFC-метке. Этот ключ представляет собой ХЕШ-СУММУ, 
+например: ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb, её в любой момент можно считать с помощью 
+смартфона. Если вдруг она попадёт в руки другого человека или будет найдена, то сама по себе не несёт никакой информации 
+о том, что это и где применяется.
+
+    Инструмент не хранит никакой информации — ни о паролях, ни о ключе. На первом шаге требуется ввести ключ, 
+на втором — хост учётной записи (Instagram, Facebook и т.п.). Если у вас несколько аккаунтов, можно добавить имя 
+пользователя. Далее, используя алгоритм хеширования SHA-256 и выполняя тройное хеширование, будет сгенерирован безопасный, 
+уникальный пароль, который не нужно запоминать. Как это не нужно?
+
+   Да потому что SHA-256 гарантирует, что при вводе того же ключа и имени хоста всегда получится один и тот же результат. 
+От вас потребуется лишь иметь сам ключ и вводить название аккаунта, для которого нужно получить пароль. Ваши пароли будут 
+выглядеть, например, так: 7V1QRtxY2WRtBG01ESgz4UMG49oUca6lnvhQFEFzPGA=, или так: KxgvhkGvQPng1MTISNkf2dN8S0iyP/Tle7EjDBNvGkk=
+
+Такие пароли считаются сверхнадёжными (288,4 бита энтропии). Угадать их математически практически невозможно: даже сотням 
+суперкомпьютеров потребуются миллиарды лет, чтобы подобрать такой пароль. Таким образом, это можно рассматривать 
+как альтернативный офлайн-метод.
+
+Здесь описанный метод можно применить в одном инструменте.
+Его простейшая реализация: https://github.com/stpatriarch/onekey.git
+
+
+English
+-------
+
+    Considering that people use dozens of accounts, each of which must have its own unique password, it is desirable that 
+the password be secure, meaning it should contain a sufficient number of characters, uppercase and lowercase letters, digits, 
+and special symbols. The problem is that people are simply unable to remember all of this: they often use repeated and 
+weak (short, consisting of few characters) passwords, while various password managers have repeatedly proven their vulnerability 
+to hacker attacks, putting hundreds of thousands of accounts and their passwords at risk.
+
+    Of course, this method also has its drawbacks, but it avoids several of the issues mentioned above. It is offline, meaning it 
+excludes any unwanted interference from third parties. It suggests having a single key stored on a physical medium or, for example, 
+inside a QR code or NFC tag. This key is a HASH VALUE, for example: ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb, 
+which can be read at any time using your smartphone. If it somehow falls into someone else’s hands or is found by another person, 
+it carries no information about what it is or where it is used.
+
+    The tool itself does not store any information — neither the password nor the key. At the first step, you are required to 
+enter the key, and at the second — the account host (Instagram, Facebook, etc.). If you have multiple accounts, you can also use usernames. 
+Then, by applying the SHA-256 hashing algorithm with triple hashing, it generates a secure, unique password that you do not need to remember. 
+Why not?
+
+    Because SHA-256 guarantees that with the same key and host input, it will always produce the same result. All you need is to 
+have the key and enter the account name for which the password is needed. Each of your passwords will look something 
+like this: 7V1QRtxY2WRtBG01ESgz4UMG49oUca6lnvhQFEFzPGA= or like this: KxgvhkGvQPng1MTISNkf2dN8S0iyP/Tle7EjDBNvGkk=
+
+    Such passwords are considered ultra-secure (288.4 bits of entropy). Guessing them is mathematically nearly impossible: 
+even hundreds of supercomputers would require billions of years to crack such a password. Thus, this can be regarded as an 
+alternative offline method.
+
+The method described here can be applied in a single tool.
+Its simplest implementation: https://github.com/stpatriarch/onekey.git
