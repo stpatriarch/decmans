@@ -100,3 +100,8 @@ alternative offline method.
 
 The method described here can be applied in a single tool.
 Its simplest implementation: https://github.com/stpatriarch/onekey.git
+
+
+-------
+author: stpatriarch
+writed at 10.09.25
